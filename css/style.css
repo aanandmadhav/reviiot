@@ -317,8 +317,7 @@ p {
   color: #fff; }
 .notify-cmpt.notify-form-type-3 .input-wrap i {
   display: none; }
-.notify-cmpt.notify-form-type-3.md-content {
-  background: url("../img/newsletterimg.jpg");
+.notify-cmpt.notify-form-type-3.md-content { 
   text-align: center;
   border-radius: 2px; }
   .notify-cmpt.notify-form-type-3.md-content p {
