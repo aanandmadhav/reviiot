@@ -295,7 +295,7 @@
 								<div class="tablecell">
 									<div  data-ng-controller="ContactController">
 										<h2 class="margin-bottom-50">Hey&nbsp;<i><span  data-ng-bind="formData.inputName||'there'">there</span></i>, we are happy hear from you.</h2>
-										<form data-netlify="true" name="contactform"  method="post" class="form-horizontal" role="form" >
+										<form data-netlify="true" netlify-honeypot="bot-field" name="contactform"  method="post" class="form-horizontal" role="form" >
 
 											<!--Contact Form-->
 											<div class="contact-form-wrap">
@@ -317,7 +317,7 @@
 													</div>
 													<div class="form-group col-sm-12 col-xs-12 margin-bottom-10">
 														<div class="align-center">
-															<button type="submit" class="btn btn-default">
+															<button type="submit" class="btn btn-default" >
 															<span class="mask"></span>
 															<span>send message</span>
 															</button>
